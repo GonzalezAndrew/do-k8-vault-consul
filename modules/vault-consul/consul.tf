@@ -1,3 +1,6 @@
+# https://github.com/hashicorp/consul-k8s
+# https://www.consul.io/docs/k8s
+
 locals {
   # Keep these two values higher or default to 3, it is a daemon set (value should be <= number of nodes available)
   consul_values = {

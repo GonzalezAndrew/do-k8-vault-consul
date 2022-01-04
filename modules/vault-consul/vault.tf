@@ -1,3 +1,6 @@
+# https://github.com/hashicorp/vault-helm
+# https://www.vaultproject.io/docs/platform/k8s/helm/examples/ha-with-consul
+
 locals {
   vault_values = {
     "server.ha.enabled"  = true
